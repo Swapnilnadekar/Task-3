@@ -1,0 +1,422 @@
+.heading {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-right: 70px;
+}
+
+h1 {
+  font-family: serif;
+  font-size: 33px;
+  color: rgb(214, 169, 22);
+}
+
+.calc_container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(25, 29, 66);
+  margin: 1px 660px 100px 550px;
+  padding: 30px 343px 30px 10px;
+  border-radius: 15px;
+  outline: 20px;
+  border: 2px solid rgb(21, 209, 115);
+  box-shadow: 1px 8px 8px 7px rgb(82, 81, 81);
+}
+
+.form_container {
+  display: flex;
+  flex-direction: row;
+}
+
+.input_text {
+  display: flex;
+  flex-direction: row;
+  text-align: end;
+  padding: 12px 7px 1px 24px;
+  font-size: large;
+  margin-right: 3px;
+  border: none;
+  border-radius: 3px;
+}
+
+.keypad {
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 54px;
+}
+
+.clear_btn {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5px;
+  padding: 9px 12px 5px 12px;
+  background-color: rgb(202, 13, 171);
+  border: none;
+  border-radius: 3px;
+}
+
+.clear_btn:hover {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5px;
+  padding: 9px 12px 5px 12px;
+  background-color: rgb(202, 13, 13);
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+#backspace {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1px;
+  padding: 9px 10px 2px 10px;
+  background-color: rgb(202, 13, 171);
+  border: none;
+  border-radius: 3px;
+}
+
+#backspace:hover {
+  display: flex;
+  flex-direction: row;
+  padding: 9px 10px 2px 10px;
+  background-color: rgb(202, 13, 13);
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+.divide_row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(13, 18, 59);
+  color: white;
+}
+.one_1 {
+  padding: 12px 42px 12px 42px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(128, 10, 175);
+  color: white;
+}
+
+.one_1:hover {
+  padding: 12px 42px 12px 42px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(146, 133, 146);
+  color: white;
+}
+
+.two_2 {
+  margin-left: 5px;
+  padding: 12px 42px 12px 42px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(128, 10, 175);
+  color: white;
+}
+
+.two_2:hover {
+  margin-left: 5px;
+  padding: 12px 42px 12px 42px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(146, 133, 146);
+  color: white;
+}
+
+.three_3 {
+  margin-left: 5px;
+  padding: 12px 42px 12px 42px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(128, 10, 175);
+  color: white;
+}
+
+.three_3:hover {
+  margin-left: 5px;
+  padding: 12px 42px 12px 42px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(146, 133, 146);
+  color: white;
+}
+
+.divide {
+  margin-left: 5px;
+  padding: 12px 18px 12px 17px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(128, 10, 175);
+  color: white;
+}
+
+.divide:hover {
+  margin-left: 5px;
+  padding: 12px 17px 12px 17px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(146, 133, 146);
+  color: white;
+}
+
+.minus_row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3px;
+  color: white;
+}
+
+.four_4 {
+  margin-top: 15px;
+  padding: 12px 42px 12px 42px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(128, 10, 175);
+  color: white;
+}
+
+.four_4:hover {
+  margin-top: 15px;
+  padding: 12px 42px 12px 42px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(146, 133, 146);
+  color: white;
+}
+
+.five_5 {
+  margin-top: 15px;
+  margin-left: 5px;
+  padding: 12px 42px 12px 42px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(128, 10, 175);
+  color: white;
+}
+
+.five_5:hover {
+  margin-left: 5px;
+  margin-top: 15px;
+  padding: 12px 42px 12px 42px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(146, 133, 146);
+  color: white;
+}
+
+.six_6 {
+  margin-left: 5px;
+  margin-top: 15px;
+  padding: 12px 42px 12px 42px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(128, 10, 175);
+  color: white;
+}
+
+.six_6:hover {
+  margin-left: 5px;
+  margin-top: 15px;
+  padding: 12px 42px 12px 42px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(146, 133, 146);
+  color: white;
+}
+
+.minus {
+  margin-top: 15px;
+  margin-left: 5px;
+  padding: 12px 18px 12px 17px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(128, 10, 175);
+  color: white;
+}
+
+.minus:hover {
+  margin-top: 15px;
+  margin-left: 5px;
+  padding: 12px 18px 12px 17px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(146, 133, 146);
+  color: white;
+}
+
+.plus_row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3px;
+  color: white;
+}
+
+.seven_7 {
+  margin-top: 15px;
+  padding: 12px 42px 12px 42px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(128, 10, 175);
+  color: white;
+}
+
+.seven_7:hover {
+  margin-top: 15px;
+  padding: 12px 42px 12px 42px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(146, 133, 146);
+  color: white;
+}
+
+.eight_8 {
+  margin-top: 15px;
+  margin-left: 5px;
+  padding: 12px 42px 12px 42px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(128, 10, 175);
+  color: white;
+}
+
+.eight_8:hover {
+  margin-top: 15px;
+  margin-left: 5px;
+  padding: 12px 42px 12px 42px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(146, 133, 146);
+  color: white;
+}
+
+.nine_9 {
+  margin-top: 15px;
+  margin-left: 5px;
+  padding: 12px 42px 12px 42px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(128, 10, 175);
+  color: white;
+}
+
+.nine_9:hover {
+  margin-top: 15px;
+  margin-left: 5px;
+  padding: 12px 42px 12px 42px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(146, 133, 146);
+  color: white;
+}
+
+.plus {
+  margin-top: 15px;
+  margin-left: 5px;
+  padding: 12px 18px 12px 17px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(128, 10, 175);
+  color: white;
+}
+
+.plus:hover {
+  margin-top: 15px;
+  margin-left: 5px;
+  padding: 12px 18px 12px 17px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(146, 133, 146);
+  color: white;
+}
+
+.multiply_row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2px;
+  color: white;
+}
+.zero_0 {
+  margin-top: 20px;
+  padding: 12px 42px 12px 42px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(128, 10, 175);
+  color: white;
+}
+
+.zero_0:hover {
+  margin-top: 20px;
+  padding: 10px 42px 10px 42px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(146, 133, 146);
+  color: white;
+}
+
+.dot {
+  margin-top: 20px;
+  margin-left: 5px;
+  padding: 10px 42px 10px 43px;
+  font-size: large;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(128, 10, 175);
+  color: white;
+}
+
+.dot:hover {
+  margin-top: 20px;
+  margin-left: 5px;
+  padding: 10px 42px 10px 43px;
+  font-size: large;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(146, 133, 146);
+  color: white;
+}
+
+.equal_sign {
+  margin-top: 20px;
+  margin-left: 6px;
+  padding: 12px 42px 12px 42px;
+  background-color: rgb(202, 13, 171);
+  border: none;
+  border-radius: 3px;
+  color: white;
+}
+
+.equal_sign:hover {
+  margin-top: 20px;
+  margin-left: 6px;
+  padding: 12px 42px 12px 42px;
+  background-color: rgb(18, 143, 28);
+  border: none;
+  border-radius: 3px;
+  color: white;
+}
+
+.multiply {
+  margin-top: 20px;
+  margin-left: 5px;
+  padding: 12px 19px 12px 19px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(128, 10, 175);
+  color: white;
+}
+
+.multiply:hover {
+  margin-top: 20px;
+  margin-left: 5px;
+  padding: 12px 19px 12px 19px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(146, 133, 146);
+  color: white;
+}
